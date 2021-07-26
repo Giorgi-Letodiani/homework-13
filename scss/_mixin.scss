@@ -1,0 +1,12 @@
+@mixin d-flex($display, $just, $aligen) {
+    display: $display;
+    justify-content: $just;
+    align-items: $aligen;
+}
+@mixin size ($max, $width) {
+    max-width: $max;
+    width: $width;
+}
+@mixin tranistionHover ($property, $duration, $type, $delay) {
+    transition: $property $duration $type $delay;
+}
